@@ -90,7 +90,7 @@ group_b_dfs = [dataframes_dict[name] for name in ["B1", "B2", "B3", "B4"] if nam
 without_sources = process_group(group_b_dfs, ["Wirtschaft", "Physik", "CIA", "Gesundheit"])
 
 # Ausgabeordner erstellen
-output_folder = os.path.join(folder_path, "formatted_data")
+output_folder = "formatted_data"
 os.makedirs(output_folder, exist_ok=True)
 
 # Als CSV speichern
